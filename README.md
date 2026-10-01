@@ -49,7 +49,7 @@ Based on the supplied dataset:
 - **Detroit Red Wings** recorded the highest Win % at **75.6%**.
 - **Pittsburgh Penguins** recorded the highest Goals For with **362 goals**.
 - **Ottawa Senators** recorded the lowest Win % at **22.0%**.
-- **San Jose Sharks** had the lowest Goal Differential at **-105**.
+- **San Jose Sharks** had the highest negative Goal Differential at **-105**.
 - Goal Differential and Win % show a strong positive association in the supplied observations, with a correlation of approximately **0.97**.
 - Goals For and Win % show a positive association, with a correlation of approximately **0.69**.
 - Goals Against and Win % show a negative association, with a correlation of approximately **-0.72**.
@@ -100,7 +100,7 @@ The scraped information was converted into a structured dataset containing team 
 
 ### 3. Data Transformation
 
-Additional analysis fields were created, including Goal Differential and Performance Category.
+Additional analysis fields were created, including Total Matches played by team, Goals For Per Game, Goals Against Per Game, Goal Differtial Category and Performance Category.
 
 ### 4. Data Validation
 
@@ -173,7 +173,7 @@ Possible extensions include:
 - Adding team-level performance trends
 - Creating additional player-level analysis
 - Automating the refresh and reporting workflow
-- Adding more advanced statistical analysis
+
 
 ## Portfolio Summary
 
